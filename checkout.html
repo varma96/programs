@@ -1,0 +1,195 @@
+<html>
+<head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="text-center">
+            <img src="https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg" height="100" width="100">
+            <h2>Checkout form</h2>
+            <p>Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+        </div>
+
+        <div class="row">
+                <div class="col-md-8">
+                    <h3>Billing address</h3>
+                    <form>
+                      <div class="row">
+                          <div class="col-md-6">
+                              <label>First Name</label>
+                              <input type="text" class="form-control">
+                          </div>
+                          <div class="col-md-6">
+                              <label>Last Name</label>
+                              <input type="text" class="form-control">
+                         </div>
+                      </div> 
+                      <label>user name</label>
+                      <input type="text" class="form-control"> 
+                      
+                      <label>email</label>
+                      <span class="text-muted">(optional)</span>
+                      <input type="email" class="form-control" placeholder="enter email">
+                   
+                      <label>Address</label>
+                      <input type="text" class="form-control" placeholder="enter address">
+    
+                      <label>Address2</label>
+                      <span class="text-muted">(optional)</span>
+                      <input type-="text" class="form-control" placeholder="enter another address">
+    
+                      <div class="row">
+                            <div class="col-md-5">
+                                    <label>country</label>
+                                    <select class="custom-select" ckecked>
+                                        <option>choose country</option>
+                                        <option>INDIA</option>
+                                        <option>United states</option>
+                                    </select>
+                            </div>  
+                            <div class="col-md-4">
+                                    <label>state</label>
+                                    <select class="custom-select" ckecked>
+                                        <option>choose state</option>
+                                        <option>tamilnadu</option>
+                                        <option>telangana</option>
+                                    </select>
+                            </div> 
+                            <div class="col-md-3">
+                                <label>ZIP</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            
+    
+                      </div>
+                      <hr>
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox">
+                        <label>shipping address is same as my billing address</label>
+                    </div>
+                    <div class="custom-control">
+                        <input type="checkbox">
+                        <label>save this information for next time</label>
+                    </div>
+                    <div class="col-md-12">
+                    <h3>payments</h3>
+                    <div class="block">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" checked >
+                            <label class="custom-control-label">credit card</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input">
+                            <label class="custom-control-label">debit card</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input">
+                            <label class="custom-control-label">paypal</label>
+                        </div>
+                    </div>
+                </div>
+                    <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Name of card</label>
+                            <input type="text" class="form-control">
+                            <small>full name as displayed on card</small>
+                        </div>
+                        <div class="col-md-6">
+                            <label>credit card number</label>
+                            <input type="number" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-3">
+                            <label>expiration</label>
+                                <input type="text" class="form-control">
+                        </div>
+                        <div class="col-md-3">
+                            <label>CVV</label>
+                            <input typr="number" class="form-control">
+                          
+                        </div>
+                      
+                        <hr>
+                        <button class="btn btn-primary btn-lg btn-block" type="submit">continue to checkout</button>
+                   
+                    </form>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="col-md-4">
+           
+                <h4 class="d-flex justify-content-between align-items-center">
+                    <span class="text-muted">your cart</span>
+                    <span class="badge bagde-secondary badge-pill">3</span>
+                </h4>
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between">
+                        <div>
+                            <h5>product name</h5>
+                            <small>Brief description</small>
+                        </div>
+                        <span class="text-muted">$12</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between">
+                            <div>
+                                <h5>second product</h5>
+                                <small>Brief description</small>
+                            </div>
+                            <span class="text-muted">$8</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between">
+                                <div>
+                                    <h5>third item</h5>
+                                    <small>Brief description</small>
+                                </div>
+                                <span class="text-muted">$5</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                    <div class="text-success">
+                                        <h5>promo code</h5>
+                                        <small>Example code</small>
+                                    </div>
+                                    <span class="text-success">-$5</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between">
+                                        <DIV>
+                                            <h5>total(USD)</h5>
+                                            <small>Example code</small>
+                                        </DIV>
+                                        <span>-$5</span>
+                                    </li>
+                             </ul>
+                <form>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="promo code">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-secondary">Redeem</button>
+                        </div>
+                    </div>
+                </form>
+            </div>           
+         
+        <footer class="text-center">
+            <p>2017-2019 Company name</p>
+            <ul class="list-inline">
+                <li class="list-inline-item">
+                    <a href="#">privacy</a>
+                </li>
+                <li class="list-inline-item">
+                        <a href="#">terms</a>
+                    </li>
+                    <li class="list-inline-item">
+                            <a href="#">support</a>              
+                        </li>
+            </ul>
+        </footer>
+
+</body>
+</html>
