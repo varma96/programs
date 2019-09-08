@@ -1,0 +1,23 @@
+<script>
+    var  students=[{id:101,name:"prasad",per:30},
+    {id:102,name:"varma",per:20},
+    {id:103,name:"vicky",per:10},
+    {id:104,name:"arjun",per:60},
+    {id:105,name:"murali",per:70},
+    {id:106,name:"surseh",per:80},
+    {id:107,name:"mani",per:70},
+    {id:108,name:"girish",per:85},
+    {id:109,name:"prasanth",per:40},
+    {id:110,name:"ashok",per:65}]
+
+    function name(){
+        var stds=students.map(function(value,position){
+           return{
+                id:value.id,
+                name:value.name
+            }
+        })
+        console.log(stds);
+    }
+name();
+</script>
