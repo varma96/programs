@@ -1,0 +1,15 @@
+<script>
+    var array=[10,31,42,68,21,102,101,10002,1003];
+    function odd(){
+        var oddnumbers=array.filter(function(value,index){
+            if(value%2!==0){
+                return true
+            }
+            else{
+                return false;
+            }
+        })
+        console.log(oddnumbers);
+    }
+    odd();
+</script>
