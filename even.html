@@ -1,0 +1,16 @@
+<script>
+    var a=[10,31,42,68,21,102,101,1002,1003];
+    function even(){
+      
+        var evennumbers=a.filter(function(value,index){
+            if(value%2==0){
+                return true
+            }
+            else{
+                return false;
+            }
+        })
+        console.log(evennumbers);
+    }
+    even();
+</script>
